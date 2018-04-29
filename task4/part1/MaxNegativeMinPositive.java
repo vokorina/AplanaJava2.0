@@ -1,14 +1,17 @@
+package task4.part1;
+
 import java.util.Arrays;
 import java.util.Random;
 
 /**
- * Задание 3.1
+ * Задание 4.1
+ * Массив размерностью 20, заполняется случайными целыми числами от -10 до 10.
+ * Найти максимальный отрицательный и минимальный положительный элементы массива. Поменять их местами.
  *
  * @author Alina Vokorina
  */
-public class Task4part1 {
+public class MaxNegativeMinPositive {
     public static void main(String[] args) {
-        //TODO. Массив размерностью 20, заполняется случайными целыми числами от -10 до 10. Найти максимальный отрицательный и минимальный положительный элементы массива. Поменять их местами.
         int n = 20;
         int[] array = new int[n];
         Random rand = new Random();
